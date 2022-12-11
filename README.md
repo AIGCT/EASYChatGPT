@@ -27,7 +27,7 @@
 
 ```python
 # 运行一次即可 安装代码环境
-pip3 install revChatGPT --upgrade 
+pip3 install -r requirements.txt
 ```
 
 ## 2 开始对话！
