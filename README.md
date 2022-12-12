@@ -63,3 +63,11 @@ pip3 install -r requirements.txt
 我在AI Studio上获得至尊等级，点亮10个徽章，来互关呀~
 
 > [https://aistudio.baidu.com/aistudio/personalcenter/thirdview/643467](https://aistudio.baidu.com/aistudio/personalcenter/thirdview/643467)
+
+## Disclaimers
+
+This is not an official OpenAI product. This is a personal project and is not affiliated with OpenAI in any way. Don't sue me.
+
+## 感谢
+
+[acheong08](https://github.com/acheong08/ChatGPT)

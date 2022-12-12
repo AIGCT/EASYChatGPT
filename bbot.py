@@ -15,8 +15,8 @@ def get_chat_response(session_id, prompt):
     chatbot.refresh_session()
 
     if session_id in user_session:
-        # 如果在三分钟内再次发起对话则使用相同的会话ID
-        if time.time() < user_session[session_id]['timestamp'] + 60 * 3:
+        # 如果在10分钟内再次发起对话则使用相同的会话ID
+        if time.time() < user_session[session_id]['timestamp'] + 60 * 10:
             chatbot.conversation_id = user_session[session_id]['conversation_id']
             chatbot.parent_id = user_session[session_id]['parent_id']
         else:
