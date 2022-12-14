@@ -17,26 +17,32 @@
 ## 注意事项
 
 1. 本项目仅用于方便更多开发者体验ChatGPT,生成的内容与本平台无关
-2. 项目仅供一乐，采用个人token实现
-3. 对话记忆时长默认设置10分钟，可以自行在代码第18行更改。
-4. 有问题可以在评论区讨论
-5. 好玩的对话也可以放评论区大家看看，但是禁止搞zz、ys和任何敏感问题。
-6. 如果想自行更改token，可以查看TOKEN.md进行操作
+2. 对话记忆时长默认设置10分钟，可以自行在代码第18行更改。
+3. 有问题可以在评论区讨论
+4. 好玩的对话也可以放评论区大家看看，但是禁止搞zz、ys和任何敏感问题。
 
 ## 1 安装环境
 
 ```python
 # 运行一次即可 安装代码环境
 pip3 install -r requirements.txt
+# 确保你的谷歌浏览器版本正确
+playwright install
 ```
 
 ## 2 开始对话！
 
 `python3 app.py`
 
+## ☆PS☆
+
+1. 你要在开启代理的情况下运行app.py
+2. 弹出浏览器页面后，手动验证和登录账号，在进入openai的一瞬间，关闭代理
+3. 你成功了！
+
 ## 项目总结
 
-项目借助ChatGPT的接口和个人账户token实现。
+项目借助ChatGPT的接口和个人账户实现。
 
 请支持原版ChatGPT,此版本为个人娱乐使用，切勿上升层面。
 
@@ -71,3 +77,5 @@ This is not an official OpenAI product. This is a personal project and is not af
 ## 感谢
 
 [acheong08](https://github.com/acheong08/ChatGPT)
+
+and so on...

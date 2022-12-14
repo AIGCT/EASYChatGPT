@@ -1,1 +1,1 @@
-revChatGPT==0.0.a42
+revChatGPT==0.0.43

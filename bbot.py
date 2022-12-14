@@ -1,18 +1,19 @@
 from revChatGPT.revChatGPT import Chatbot
 import time
 import random
-from config import getToken
+# from config import getToken
 
-config = getToken()
+# config = getToken()
 
 user_session = dict()
 # 初始化bot
-chatbot = Chatbot(config)
+chatbot = Chatbot({})
+
+# 刷新seesion_token
+chatbot.refresh_session()
 
 
 def get_chat_response(session_id, prompt):
-    # 刷新seesion_token
-    chatbot.refresh_session()
 
     if session_id in user_session:
         # 如果在10分钟内再次发起对话则使用相同的会话ID
