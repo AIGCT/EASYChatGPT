@@ -39,6 +39,7 @@ playwright install
 1. 你要在开启代理的情况下运行app.py
 2. 弹出浏览器页面后，手动验证和登录账号，在进入openai的一瞬间，关闭代理
 3. 你成功了！
+   ![demo](1.png "demo")
 
 ## 项目总结
 
